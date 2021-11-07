@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>aligning form controls problems</title>
+	<link rel="stylesheet" href="">
+	<style type="text/css">
+		bodu{
+			font-family: Arial, Verdana, sans-serif;
+		}
+	</style>
+</head>
+<body>
+	<form action="example.php" method="post">
+		<div>
+			<label for="name" class="title">name</label>
+			<input type="text" name="name" id="name"/>
+		</div>
+		<div>
+		    <lable for="email" class="title">email</lable>
+		    <input type="email"  name="email" />
+	    </div>
+	    <div class="radio-buttons">
+	    	<span class="title">gender</span>
+	    	<input type="radio" name="gender" id="male" value="M" />
+	    	<label for="male">M</label>
+	    	<input type="radio" name="gender" id="femail" value="F" />
+	    	<label for="female">F</label><br/>
+	    </div>
+	    <div class="submit">
+	        <input type="submit" value="register" id="submit" />
+	    </div>    	
+	</form>
+</body>
+</html>

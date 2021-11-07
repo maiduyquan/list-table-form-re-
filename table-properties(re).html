@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>table properties</title>
+	<link rel="stylesheet" href="">
+		<style type="text/css">
+			body {
+				font-family: Arial, Verdana, sans-serif;
+				color: #111111;
+			}
+			table {
+				width: 600px;
+			}
+			th, td {
+				padding: 7px 10px 10px 10px;
+			}
+			th {
+				text-transform: uppercase;
+				letter-spacing: 0.12em;
+				font-size: 90%;
+				border-bottom: 2px solid #111111;
+				border-top: 1px solid #999;
+				text-align: left;
+			}
+			tr.even {
+				background-color: #efefef;
+			}
+			tr:hover {
+				background-color: #c3e6e5;
+			}
+			td.money {
+				text-align: right;
+			}
+		</style>	
+</head>
+<body>
+		<h1>first edition auctions</h1>
+		<table>
+			<tr>
+				<th>author</th>
+				<th>title</th>
+				<th class="money">reserve price</th>
+				<th class="money">current bid</th>
+			</tr>
+			<tr>
+				<td>e.e. cummings</td>
+				<td>tulips & chimneys</td>
+				<td class="money">$2,000.00</td>
+				<td class="money">$2,642.50</td>
+			</tr>
+			<tr class="even">
+				<td>charles d'Orleans</td>
+				<td>poemes</td>
+				<td class="money"></td>
+				<td class="money">$5,866.00</td>
+			</tr>
+			<tr>
+				<td>t.s. eliot</td>
+				<td>poems 1909 - 1925</td>
+				<td class="money">$1,250.00</td>
+				<td class="money">$8,499.35</td>
+			</tr>
+			<tr class="even">
+				<td>sylvia plath</td>
+				<td>the colossus</td>
+				<td class="money"></td>
+				<td class="money">$1031.72</td>
+			</tr>
+		</table>	
+</body>
+</html>
